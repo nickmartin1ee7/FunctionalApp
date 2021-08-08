@@ -1,17 +1,3 @@
-﻿/*
-using System;
-using System.Linq;
-
-var input = 20;
-
-if (input.ValidateAll(x => x.IsPositive(),
-                   x => x.LessThan(60),
-                   x => x.GreaterThanOrEqualTo(0)))
-{
-    // ...
-}
-*/
-
 using System;
 using System.Linq;
 using Functionals;
